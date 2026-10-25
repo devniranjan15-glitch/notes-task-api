@@ -1,0 +1,23 @@
+{
+  "name": "sapphireiq-notes-task-api",
+  "version": "1.0.0",
+  "description": "REST API for managing notes and tasks using Node.js, Express, MongoDB and Mongoose",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["nodejs", "express", "mongodb", "mongoose", "rest-api", "crud"],
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "mongoose": "^8.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
